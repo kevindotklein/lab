@@ -1,4 +1,4 @@
-import type { CSSProperties } from "styled-components";
+import { styled, type CSSProperties } from "styled-components";
 import ProjectCard from "../components/ProjectCard";
 
 export default function Projects() {
@@ -12,26 +12,26 @@ export default function Projects() {
     gap: "2rem",
   };
 
+  const PAbout = styled.p`
+    font-size: 1.2rem;
+  `;
+
   return (
     <div style={projectsWrapper}>
-      <ProjectCard title={"test1"}>
-        <p>aaa</p>
-        <a href="/#">lasdjfljkasd</a>
-        <p>lfjsldçfj</p>
-      </ProjectCard>
-
-
-      <ProjectCard title={"test1"}>
-        <p>aaa</p>
-        <a href="/#">lasdjfljkasd</a>
-        <p>lfjsldçfj</p>
-      </ProjectCard>
-
-
-      <ProjectCard title={"test1"}>
-        <p>aaa</p>
-        <a href="/#">lasdjfljkasd</a>
-        <p>lfjsldçfj</p>
+      <ProjectCard title={"bazooka"}>
+        <h2>a parser combinator library written in erlang</h2>
+        <span style={{ fontSize: "1.2rem" }}>check the github repo: </span>
+        <a
+          style={{ fontSize: "1.2rem" }}
+          href="https://github.com/kevindotklein/bazooka"
+          target="_blank"
+        >
+          https://github.com/kevindotklein/bazooka
+        </a>
+        <PAbout>
+          check the <strong>/examples/json</strong> dir inside the repo to see a
+          fully working json parser
+        </PAbout>
       </ProjectCard>
     </div>
   );

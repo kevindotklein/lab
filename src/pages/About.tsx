@@ -24,15 +24,31 @@ export default function About() {
         </WindowHeader>
         <WindowContent>
           <h2>Hi,</h2>
-          <PAbout>i'm <u>Kevin Klein</u>,</PAbout>
           <PAbout>
-            fullstack developer, passionate about functional languages,
-            low level, eletronics, physics and math
+            i'm <u>Kevin Klein</u>,
+          </PAbout>
+          <PAbout>
+            fullstack developer, passionate about functional languages, low
+            level, eletronics, physics and math
           </PAbout>
           <PAbout>
             get in touch through any socials (buttons in card) or email:{"  "}
             <span style={{ color: "blue" }}>kevindotklein@gmail.com</span>
           </PAbout>
+          <br />
+          <ul>
+            <li>
+              <PAbout>
+                i'm currently an electronic engineering student at IFSP - 🤖
+              </PAbout>
+            </li>
+            <li>
+              <PAbout>fav pokemon: electrode</PAbout>
+            </li>
+            <li>
+              <PAbout>fav movie: star wars - revenge of the sith</PAbout>
+            </li>
+          </ul>
         </WindowContent>
       </Window>
     </div>

@@ -8,7 +8,7 @@ interface Props {
   footerMsg?: string;
 }
 
-export default function ProjectCard({
+export default function Card({
   title,
   children,
   footer,

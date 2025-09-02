@@ -25,7 +25,7 @@ export default function About() {
         <WindowContent>
           <h2>Hi,</h2>
           <PAbout>
-            i'm <u>Kevin Klein</u>,
+            i'm <u>kevin</u>,
           </PAbout>
           <PAbout>
             fullstack developer, passionate about functional languages, low
@@ -39,7 +39,7 @@ export default function About() {
           <ul>
             <li>
               <PAbout>
-                i'm currently an electronic engineering student at IFSP - 🤖
+                i'm currently an electronic engineering student at IFSP
               </PAbout>
             </li>
             <li>

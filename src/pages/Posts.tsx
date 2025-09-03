@@ -7,18 +7,8 @@ import {
   TableRow,
   TableHeadCell,
   TableBody,
-  TableDataCell,
 } from "react95";
-import styled from "styled-components";
 import PostLink from "../components/PostLink";
-
-const TableDataCellCenter = styled(TableDataCell)`
-  text-align: center;
-`;
-
-const TableRowClickable = styled(TableRow)`
-  cursor: pointer;
-`;
 
 export default function Posts() {
   return (
